@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1436558130 source:d:\contest\codechef\2015 july\long challenge\file_cmp\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<cstring>
+
