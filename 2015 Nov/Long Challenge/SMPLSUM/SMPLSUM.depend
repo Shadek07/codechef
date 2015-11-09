@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1446873270 source:d:\contest\codechef\2015 nov\long challenge\smplsum\main.cpp
+	<iostream>
+	<cstdio>
+	<algorithm>
+	<cstring>
+	<string>
+	<cctype>
+	<stack>
+	<queue>
+	<list>
+	<vector>
+	<map>
+	<sstream>
+	<cmath>
+	<bitset>
+	<utility>
+	<set>
+	<numeric>
+	<fstream>
+
