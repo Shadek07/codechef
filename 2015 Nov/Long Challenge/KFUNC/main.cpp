@@ -73,6 +73,9 @@ int main(void)
     bool vis[11];
     ull prefix[11];
     //cout << ULLONG_MAX << endl;
+    (resolution ( ((A)(B C) ) ((B)() ) ((C)() ) ) )
+(loop for (x) in ( ((C D)(A)) ((A D E)()) (()(A C)) (()(D)) (()(E)) )
+     collect (list x) )
     while(t--){
         scanf("%llu %llu %llu %llu",&A, &D, &L, &R);
         a = A + (((L-1)%9)*(D%9))%9;
@@ -91,16 +94,15 @@ int main(void)
             b = a%9;
             if(b == 0)
                 b = 9;
-           if(vis[b]){
+            if(vis[b]){
               break;
-           }
+            }
            //cout << b << endl;
            sum += b;
            c++;
            vis[b] = true;
            prefix[c] = prefix[c-1] + b;
         }
-        
         ull t = (R-L+1)/c;
         ull r = (R-L+1)%c;
         ans = t*sum + prefix[r];
