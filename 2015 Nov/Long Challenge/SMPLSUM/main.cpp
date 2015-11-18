@@ -5,7 +5,7 @@
     #include <algorithm>
     #include <cstring>
     using namespace std;
-    #define MAX 10001
+    #define MAX 100001
     int phi[MAX];
     void sieve_phi(){
         int i,j;
@@ -29,6 +29,7 @@
         /* Enter your code here. Read input from STDIN. Print output to STDOUT */  
         int t;
         sieve_phi();
+        //cout << phi[1000000] << endl;
         scanf("%d",&t);
         int n;
         int i,j;
