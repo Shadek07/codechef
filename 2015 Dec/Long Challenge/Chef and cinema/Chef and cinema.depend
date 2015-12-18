@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1450012737 source:d:\contest\codechef\2015 dec\long challenge\chef and cinema\main.cpp
+	<iostream>
+	<cstring>
+	<cstdio>
+	<vector>
+	<map>
+	<set>
+	<string>
+	<cmath>
+	<cstdlib>
+	<cctype>
+	<algorithm>
+	<queue>
+	<sstream>
+	<stack>
+	<list>
+	<bitset>
+	<iomanip>
+	<fstream>
+	<ctime>
+
