@@ -35,6 +35,7 @@ bool inside(int a,int n){
    if(a>=1 && a<=n)
       return true;
    return false;
+   
 }
 int main(void)
 {
